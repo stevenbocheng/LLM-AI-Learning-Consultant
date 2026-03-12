@@ -19,6 +19,5 @@ OPENAI_MODEL = _get("OPENAI_MODEL", "gpt-4o")
 FAISS_DB_PATH = _get("FAISS_DB_PATH", "faiss_db")
 LANGCHAIN_API_KEY = _get("LANGCHAIN_API_KEY")
 
-if not OPENAI_API_KEY:
-    raise ValueError("缺少必填設定：OPENAI_API_KEY，請檢查 .env 檔案或 Streamlit Secrets")
+# 本地開發時若無 .env 會是 None，Streamlit Cloud 由使用者在 UI 輸入 Key
 
