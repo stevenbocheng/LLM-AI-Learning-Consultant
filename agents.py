@@ -1,8 +1,6 @@
-import config
-from langchain_openai import ChatOpenAI
 from langchain_core.messages import SystemMessage, HumanMessage
 
-llm = ChatOpenAI(model=config.OPENAI_MODEL, api_key=config.OPENAI_API_KEY)
+llm = None  # 由 main.py 在執行時注入：agents.llm = ChatOpenAI(...)
 
 
 
