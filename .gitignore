@@ -1,0 +1,50 @@
+# === 敏感資訊（絕對不能上傳）===
+.env
+
+# === 本地資料檔（體積大，透過其他方式分享）===
+faiss_db/
+*.mp4
+goodreads_books_dataset.csv
+goodreads_books_dataset_README.md
+AI學習諮詢師使用範例一.jpg
+AI學習諮詢師使用範例一的輸出結果1.jpg
+AI學習諮詢師使用範例一的輸出結果2.jpg
+
+# === Python 暫存檔 ===
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+
+# === Jupyter Notebook 暫存 ===
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# === 虛擬環境 ===
+venv/
+env/
+.venv/
+.env/
+llm_env/
+
+# === 套件安裝目錄 ===
+*.egg-info/
+dist/
+build/
+
+# === 作業系統自動產生 ===
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# === 開發筆記（不對外公開）===
+task.md.resolved
+重構計劃_AI學習諮詢師.md
+重建向量資料庫計畫_Goodreads.md
+
+# === IDE / 編輯器設定 ===
+.vscode/
+.idea/
+*.swp
+*.swo
