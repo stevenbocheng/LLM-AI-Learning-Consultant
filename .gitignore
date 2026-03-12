@@ -1,6 +1,9 @@
 # === 敏感資訊（絕對不能上傳）===
 .env
 
+# === Notebook（不對外公開）===
+RAG系統+COT+Reflection(學習諮詢師)+.ipynb
+
 # === 本地資料檔（體積大，透過其他方式分享）===
 faiss_db/
 *.mp4
